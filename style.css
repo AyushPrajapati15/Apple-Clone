@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .navbar .logo img{
@@ -16,7 +17,7 @@
 }
 .navbar{
     display: flex;  
-    justify-content: center;
+    justify-content: center ;
     padding-top: 10px;
 }
 .navbar ul{
@@ -30,6 +31,69 @@
 }
 .offers{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    
+}
+.offers a{
+    color: blue;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+}
 
+.back-video video{
+    width:100%
+}
+.services img{
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+}
+.services a{
+    color: blue;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color:rgba(0, 0, 0, 0.096);
+    margin-top: 30px;
+
+}
+.titles h1{
+    font-style: 40px;
+}
+.product img{
+    height: 90px;
+}
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color:rgba(0, 0, 0, 0.096) ;
+
+}
+.product{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.cards{
+    height: 250px;
+}
+.card{
+    height:  470px;
+    border: 2px solid black;
+    width: 370px;
+    text-align: center;
+    padding: 20px;
 }
