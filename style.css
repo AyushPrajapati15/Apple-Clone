@@ -118,20 +118,20 @@
   transform: scale(1.1);
   cursor: pointer;
 }
-.event-pictures{
-    display: flex;
-    justify-content: space-evenly;
+.event-pictures {
+  display: flex;
+  justify-content: space-evenly;
 }
-.event-pictures img{
-    height: 400px;
+.event-pictures img {
+  height: 400px;
 }
-.apple-events{
-    background-color: black;
-    color: white;
-    margin:100px 0px 100px 0px;
-    padding: 40px;
+.apple-events {
+  background-color: black;
+  color: white;
+  margin: 100px 0px 100px 0px;
+  padding: 40px;
 }
-.apple-events h1{
-    margin-bottom: 30px;
-    text-align: center;
+.apple-events h1 {
+  margin-bottom: 30px;
+  text-align: center;
 }
