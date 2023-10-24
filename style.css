@@ -175,6 +175,10 @@
   display: flex;
   justify-content: space-evenly;
 }
+.menu-list a{
+  text-decoration: none;
+  color: black;
+}
 .menu-list ul{
   list-style: none;
 }
