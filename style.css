@@ -117,13 +117,11 @@
   margin-top: 25px;
   transition: 0.7s;
 }
-
 .cards {
   display: flex;
   justify-content: space-evenly;
   margin-top: 35px;
 }
-
 .card:hover {
   transform: scale(1.1);
   cursor: pointer;
