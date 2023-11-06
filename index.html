@@ -253,7 +253,9 @@
                     <a href="#">
                         <li>Events</li>
                     </a>
-                    <a href="#"><li>Contact Apple</li></a>
+                    <a href="#">
+                        <li>Contact Apple</li>
+                    </a>
                 </ul>
             </div>
             <div class="footer">
@@ -263,15 +265,15 @@
         </div>
     </div>
     <script>
-        let nav_list=document.getElementById('nav-list')
-        let openMenu=d.getElementById('.menuopen')
-        let cross=document.querySelector('.cross')
-        openMenu.addEventListner('click',()=>{
-            nav_list.style.opacity='100%'
-            openMenu.style.display-'none'
+        let nav_list = document.getElementById('nav-list')
+        let openMenu = d.getElementById('.menuopen')
+        let cross = document.querySelector('.cross')
+        openMenu.addEventListner('click', () => {
+            nav_list.style.opacity = '100%'
+            openMenu.style.display - 'none'
         })
-        cross.addEventListener('click',()=>{
-            nav_list.style,opacity='0%'
+        cross.addEventListener('click', () => {
+            nav_list.style, opacity = '0%'
             openMenu.style.display
         })
 
