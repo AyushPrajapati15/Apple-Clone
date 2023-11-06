@@ -183,45 +183,43 @@
   text-align: center;
   padding: 20px;
 }
-.footer{
+.footer {
   padding: 20px;
-
 }
-.menuopen{
+.menuopen {
   display: none;
 }
-@media only screen and (max-width:600px) {
-  .navbar ul{
+@media only screen and (max-width: 600px) {
+  .navbar ul {
     display: none;
   }
-  .navbar{
+  .navbar {
     display: flex;
     justify-content: space-around;
   }
-  .navbar ul{
+  .navbar ul {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 100%;
     padding-bottom: 40px;
     position: absolute;
     background-color: white;
     opacity: 0%;
   }
-  .navbar ul li{
+  .navbar ul li {
     padding: 30px;
   }
-  .menuopen{
+  .menuopen {
     display: block;
     position: absolute;
     right: 4%;
     top: 25%;
     height: 25px;
   }
-  .cross{
+  .cross {
     display: block;
     position: absolute;
     right: 4%;
     height: 25px;
-
   }
 }
