@@ -48,7 +48,7 @@
                 <a href="#">
                     <li>Support</li>
                 </a>
-                <img class="cross" src="/close-116-512.png" alt="cross">
+                <!-- <img class="cross" src="/close-116-512.png" alt="cross"> -->
             </ul>
             <div class="nav-icons">
                 <a href="#"><img src="./search-icon-png-9969(1).png" alt="Search"></a>
@@ -266,15 +266,15 @@
     </div>
     <script>
         let nav_list = document.getElementById('nav-list')
-        let openMenu = d.getElementById('.menuopen')
+        let openMenu = document.getElementById('.menuopen')
         let cross = document.querySelector('.cross')
         openMenu.addEventListner('click', () => {
             nav_list.style.opacity = '100%'
             openMenu.style.display - 'none'
         })
         cross.addEventListener('click', () => {
-            nav_list.style, opacity = '0%'
-            openMenu.style.display
+            nav_list.style, opacity = '0%';
+            openMenu.style.display='block'
         })
     </script>
 </body>
